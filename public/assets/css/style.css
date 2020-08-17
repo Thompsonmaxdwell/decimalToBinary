@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.showcaseImg{
+    background-image: url('/public/assets/img/img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.883);
+    position: absolute;
+    width: 100%;
+    right: 0;
+}
+.text{
+    width: 100%;
+    margin: 80px auto 10px;
+    text-align: center;
+}
+p{
+    font-size:15px;
+    text-align: center;
+    padding:10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    line-height: 1.5;
+    color:rgb(209, 202, 202);
+}
+.container{
+    margin:0 auto;
+    width:90%;
+    box-shadow: 0 0 2px 0 white;
+    border: 1px solid white;
+    position: relative;
+    padding: 20px 10px;
+    z-index: 3;
+}
+
+input {
+    background-color: unset;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orangered;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0 20px;
+    color:white;
+
+}
+input::placeholder{
+    color:white;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid orangered;
+    background-color: unset;
+    color:white;
+}
+option {
+    color: black;
+}
+button{
+    width: 100%;
+    background-color:orangered;
+    padding: 10px;
+    font-size: 17px;
+
+    border:none;
+    color: white;
+    margin: 10px 0;
+}
+
+
+/* social icon */
+.social_link{
+    color:white;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color:orangered;
+    width:100%;
+    top: 0;
+}
+.social_link a{
+    color:white
+}
+/* social icon */
+.social_link div{
+    background-color:black;
+    padding: 5px;
+    border-radius:50%;
+    font-size:20px;
+    width: 30px;
+    display: grid; 
+    place-content: center;
+    height: 30px;
+    text-align: center; 
+    margin: 10px;
+}
+
+
+footer{
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    /* margin: 0px 20px; */
+    
+  
+}

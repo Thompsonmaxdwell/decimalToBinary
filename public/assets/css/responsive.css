@@ -1,0 +1,33 @@
+@media screen and (min-width:700px){
+    .container{
+        margin: 0 auto;
+        width:40%;
+    }
+/* text */
+    .text{
+        width: 500px;
+        margin: 100px auto  0;
+        text-align: center;
+    }
+    p{
+        font-size:15px;
+        text-align: center;
+        padding:10px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+        line-height: 1.5;
+    }
+
+    
+
+/* social icon */
+     .social_link{
+        flex-direction: column;
+        align-content: center;
+        background-color:orangered;
+        width: 60px;
+        height: 100vh;
+        justify-content: center;
+    }
+
+    
+}
